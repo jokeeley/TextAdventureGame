@@ -15,7 +15,7 @@ ${enter}`;
 
 const gameOver1 = 'You never see Slimer so you give up on catching ghosts and become a talk show host instead'
 
-const q2 = `When you get off the elevatoe, something startles you! Should you ...
+const q2 = `When you get off the elevator, something startles you! Should you ...
 1. Look to see what it is
 OR
 2. Shoot at it immediately with your proton pack.
@@ -62,12 +62,12 @@ let userInput = prompt(q1);
 // Nested Conditional Statements
 
 // 1st
-if (userInput === 1 ) {
+if (userInput == 1 ) {
     console.log("this works q1");
     userInput = prompt (q2);
 
     // 2nd
-    if(userInput ===1){
+    if(userInput == 1){
         console.log("Correct q2");
         userInput = prompt(q3);
 
